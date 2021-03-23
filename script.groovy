@@ -1,6 +1,6 @@
 def buildJar() {
     echo 'building the application...'
-    sh 'Maven package'
+    sh 'mvn package'
 }
 
 def buildImage() {
